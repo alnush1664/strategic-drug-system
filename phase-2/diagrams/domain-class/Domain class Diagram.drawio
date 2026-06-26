@@ -1,0 +1,105 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="IaK4_mCR-aQwhZs5DPZN">
+    <mxGraphModel dx="1334" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wCATuurItG3-dQNdI3Ct-25" edge="1" parent="1" source="wCATuurItG3-dQNdI3Ct-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="wCATuurItG3-dQNdI3Ct-21" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-55" connectable="0" parent="wCATuurItG3-dQNdI3Ct-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.4048" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Drug دارو" vertex="1">
+          <mxGeometry height="120" width="160" x="170" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-2" parent="wCATuurItG3-dQNdI3Ct-1" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;br&gt;drugID (شناسه)&lt;br&gt;name (نام)&lt;br&gt;code (کد)&lt;br&gt;expiryDate (تاریخ انقضا)&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-10" edge="1" parent="1" source="wCATuurItG3-dQNdI3Ct-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" target="wCATuurItG3-dQNdI3Ct-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-54" connectable="0" parent="wCATuurItG3-dQNdI3Ct-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="0.0667" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-6" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Inventory (موجودی)" vertex="1">
+          <mxGeometry height="80" width="160" x="170" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-7" parent="wCATuurItG3-dQNdI3Ct-6" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;quantity (مقدار)&lt;/div&gt;&lt;div&gt;&amp;nbsp;minThreshold (حداقل موجودی)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-16" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Transaction (تراکنش)" vertex="1">
+          <mxGeometry height="120" width="170" x="670" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-17" parent="wCATuurItG3-dQNdI3Ct-16" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="transactionId (شناسه)&lt;br/&gt;type (نوع)&lt;br/&gt;date (تاریخ)&lt;br/&gt;quantity (مقدار)&lt;br/&gt;reason (دلیل)" vertex="1">
+          <mxGeometry height="94" width="170" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-20" edge="1" parent="1" source="wCATuurItG3-dQNdI3Ct-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wCATuurItG3-dQNdI3Ct-17" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="243" />
+              <mxPoint x="350" y="243" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-40" connectable="0" parent="wCATuurItG3-dQNdI3Ct-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="یک دارو&lt;div&gt;چند تراکنش&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1132" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-43" edge="1" parent="1" source="wCATuurItG3-dQNdI3Ct-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wCATuurItG3-dQNdI3Ct-41" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="455" />
+              <mxPoint x="255" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-56" connectable="0" parent="wCATuurItG3-dQNdI3Ct-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1" vertex="1">
+          <mxGeometry relative="1" x="-0.1626" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-47" edge="1" parent="1" source="wCATuurItG3-dQNdI3Ct-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.408;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="wCATuurItG3-dQNdI3Ct-45" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="509.9976190476188" as="sourcePoint" />
+            <mxPoint x="395.03999999999996" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-50" connectable="0" parent="wCATuurItG3-dQNdI3Ct-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;nbsp;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;چند بار رخ میده&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;submits&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2109" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-21" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="User (کاربر)" vertex="1">
+          <mxGeometry height="90" width="180" x="390" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-22" parent="wCATuurItG3-dQNdI3Ct-21" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="userID (شناسه)&lt;br&gt;username (نام کاربری)" vertex="1">
+          <mxGeometry height="64" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-41" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Role (نقش)" vertex="1">
+          <mxGeometry height="90" width="250" x="10" y="420" as="geometry">
+            <mxRectangle height="30" width="90" x="-60" y="400" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-42" parent="wCATuurItG3-dQNdI3Ct-41" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="roleName (+ Admin+Pharmacist +WarehouseStaff)&amp;nbsp;&lt;br&gt;permissions (دسترسی‌ها)" vertex="1">
+          <mxGeometry height="64" width="250" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-45" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Request (درخواست تامین)" vertex="1">
+          <mxGeometry height="90" width="160" x="345" y="564" as="geometry" />
+        </mxCell>
+        <mxCell id="wCATuurItG3-dQNdI3Ct-46" parent="1" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="requestId (شناسه)&lt;br/&gt;requestDate (تاریخ)&amp;nbsp;&lt;div&gt;status (وضعیت)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="160" x="345" y="590" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
