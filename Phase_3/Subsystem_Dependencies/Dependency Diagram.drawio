@@ -1,0 +1,152 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ez8NV70aD77fsbbgsT6K">
+    <mxGraphModel dx="1030" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="سیستم مدیریت و پایش داروهای استراتژیک" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="نهاد نظارتی" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Audit Log" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="انبار دارو" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="پایگاه داده" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;pre class=&quot;overflow-visible! px-0!&quot; data-start=&quot;658&quot; data-end=&quot;712&quot;&gt;&lt;div class=&quot;relative w-full mt-4 mb-1&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;contents&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl&quot;&gt;&lt;div class=&quot;h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;pe-11 pt-3&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼd ͼr&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;pre class=&quot;cm-content q9tKkq_readonly m-0 PDq2pG_selectionAnchorContainer&quot;&gt;&lt;code&gt;ماژول رهگیری دارو&lt;/code&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;PDq2pG_selectionAnchor&quot;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="ماژول هشدار" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="مدیر لجستیک" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="پمپ انسولین" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;pre class=&quot;overflow-visible! px-0!&quot; data-start=&quot;811&quot; data-end=&quot;849&quot;&gt;&lt;div class=&quot;relative w-full mt-4 mb-1&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;contents&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl&quot;&gt;&lt;div class=&quot;h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;pe-11 pt-3&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼd ͼr&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;pre class=&quot;cm-content q9tKkq_readonly m-0 PDq2pG_selectionAnchorContainer&quot;&gt;&lt;code&gt;سنسور قند خون&lt;/code&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;PDq2pG_selectionAnchor&quot;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-11" edge="1" parent="1" source="4yxb7mIw6hnP3U0PPYaI-2" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4yxb7mIw6hnP3U0PPYaI-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="360" as="sourcePoint" />
+            <mxPoint x="450" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-12" connectable="0" parent="4yxb7mIw6hnP3U0PPYaI-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#f5f5f5;fontColor=#333333;labelBorderColor=#666666;" value="بررسی سوابق" vertex="1">
+          <mxGeometry relative="1" x="0.155" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-13" edge="1" parent="1" source="4yxb7mIw6hnP3U0PPYaI-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4yxb7mIw6hnP3U0PPYaI-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="360" as="sourcePoint" />
+            <mxPoint x="450" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-14" connectable="0" parent="4yxb7mIw6hnP3U0PPYaI-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#f5f5f5;fontColor=#333333;labelBorderColor=#666666;" value="ثبت رویدادها" vertex="1">
+          <mxGeometry relative="1" x="-0.0229" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-16" edge="1" parent="1" source="4yxb7mIw6hnP3U0PPYaI-5" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.413;entryY=0.98;entryDx=0;entryDy=0;entryPerimeter=0;" target="4yxb7mIw6hnP3U0PPYaI-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="480" />
+              <mxPoint x="420" y="480" />
+            </Array>
+            <mxPoint x="400" y="610" as="sourcePoint" />
+            <mxPoint x="450" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-17" connectable="0" parent="4yxb7mIw6hnP3U0PPYaI-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#f5f5f5;fontColor=#333333;labelBorderColor=#666666;" value="ذخیره و بازیابی اطلاعات" vertex="1">
+          <mxGeometry relative="1" x="0.1098" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-18" edge="1" parent="1" source="4yxb7mIw6hnP3U0PPYaI-5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4yxb7mIw6hnP3U0PPYaI-4" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="610" as="sourcePoint" />
+            <mxPoint x="450" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-19" connectable="0" parent="4yxb7mIw6hnP3U0PPYaI-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#f5f5f5;fontColor=#333333;labelBorderColor=#666666;" value="اطلاعات موجودی" vertex="1">
+          <mxGeometry relative="1" x="0.1333" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-22" edge="1" parent="1" source="4yxb7mIw6hnP3U0PPYaI-1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.567;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4yxb7mIw6hnP3U0PPYaI-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="780" />
+            </Array>
+            <mxPoint x="400" y="610" as="sourcePoint" />
+            <mxPoint x="440" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-24" connectable="0" parent="4yxb7mIw6hnP3U0PPYaI-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#f5f5f5;fontColor=#333333;labelBorderColor=#666666;" value="رهگیری دارو" vertex="1">
+          <mxGeometry relative="1" x="0.3402" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-25" edge="1" parent="1" source="4yxb7mIw6hnP3U0PPYaI-7" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="4yxb7mIw6hnP3U0PPYaI-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="610" as="sourcePoint" />
+            <mxPoint x="450" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-26" connectable="0" parent="4yxb7mIw6hnP3U0PPYaI-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#f5f5f5;fontColor=#333333;labelBorderColor=#666666;" value="ارسال هشدار" vertex="1">
+          <mxGeometry relative="1" x="-0.1" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-27" edge="1" parent="1" source="4yxb7mIw6hnP3U0PPYaI-1" style="endArrow=classic;html=1;rounded=0;exitX=0.68;exitY=1.06;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="4yxb7mIw6hnP3U0PPYaI-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="830" />
+            </Array>
+            <mxPoint x="400" y="610" as="sourcePoint" />
+            <mxPoint x="450" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-28" connectable="0" parent="4yxb7mIw6hnP3U0PPYaI-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#f5f5f5;fontColor=#333333;labelBorderColor=#666666;" value="کنترل و پایش" vertex="1">
+          <mxGeometry relative="1" x="0.2886" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-29" edge="1" parent="1" source="4yxb7mIw6hnP3U0PPYaI-9" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4yxb7mIw6hnP3U0PPYaI-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="1010" as="sourcePoint" />
+            <mxPoint x="450" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-30" connectable="0" parent="4yxb7mIw6hnP3U0PPYaI-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#f5f5f5;fontColor=#333333;labelBorderColor=#666666;" value="دریافت داده قند خون" vertex="1">
+          <mxGeometry relative="1" x="-0.0667" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-31" edge="1" parent="1" source="4yxb7mIw6hnP3U0PPYaI-1" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="4yxb7mIw6hnP3U0PPYaI-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="430" />
+            </Array>
+            <mxPoint x="400" y="620" as="sourcePoint" />
+            <mxPoint x="450" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4yxb7mIw6hnP3U0PPYaI-32" connectable="0" parent="4yxb7mIw6hnP3U0PPYaI-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#f5f5f5;fontColor=#333333;labelBorderColor=#666666;" value="هشدار کمبود دارو" vertex="1">
+          <mxGeometry relative="1" x="0.345" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
