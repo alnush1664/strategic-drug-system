@@ -1,0 +1,215 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="5kmI9goSrmRHYRtIUtba">
+    <mxGraphModel dx="2730" dy="3027" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EBo0xGJynow3q_47pKID-2" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="  Drug (دارو)" vertex="1">
+          <mxGeometry height="290" width="200" x="40" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-3" parent="EBo0xGJynow3q_47pKID-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ویژگی‌ها / Attributes&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- drugId: String (شناسه دارو)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- name: String (نام دارو)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- category: String (دسته دارویی)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- dosageForm: String (شکل دارویی)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- batchNumber: String (شماره بچ)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- expiryDate: Date (تاریخ انقضا)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;- strategicLevel: String (سطح استراتژیک)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="144" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-4" parent="EBo0xGJynow3q_47pKID-2" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="200" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-5" parent="EBo0xGJynow3q_47pKID-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;+ method&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;+&lt;font style=&quot;font-size: 10px;&quot;&gt; updateDrugInfo(): void (به‌روزرسانی اطلاعات دارو)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;+ checkExpiry(): boolean (بررسی تاریخ انقضا)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;+ getDrugDetails(): String (دریافت اطلاعات دارو)&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="112" width="200" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-6" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; Inventory (موجودی انبار)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="350" width="230" x="320" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-7" parent="EBo0xGJynow3q_47pKID-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ویژگی‌ها / Attributes&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;inventoryId: String (شناسه موجودی)&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;quantityAvailable: int (موجودی فعلی)&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;minimumThreshold: int (حداقل مجاز)&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;lastUpdated: Date (آخرین بروزرسانی)&lt;/font&gt;&lt;/li&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="134" width="230" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-8" parent="EBo0xGJynow3q_47pKID-6" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="230" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-9" parent="EBo0xGJynow3q_47pKID-6" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;+ method&lt;/font&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;li&gt;+i&lt;font style=&quot;font-size: 10px;&quot;&gt;ncreaseStock(amount:int): void (افزایش موجودی)&lt;/font&gt;&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;+decreaseStock(amount:int): void (کاهش موجودی)&lt;/font&gt;&lt;/li&gt;&lt;br&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;+checkStockLevel(): boolean (بررسی سطح موجودی)&lt;/font&gt;&lt;/li&gt;&lt;div&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="182" width="230" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-11" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; User (کاربر)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="280" x="740" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-12" parent="EBo0xGJynow3q_47pKID-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ویژگی‌ها / Attributes&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- userId: String (شناسه کاربری)&lt;br&gt;    - username: String (نام کاربری)&lt;br&gt;    - passwordHash: String (رمز عبور رمزنگاری شده)&lt;br&gt;    - role: String (&lt;/span&gt;نقش: مدیر/داروساز/انباردار/ناظر&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;br&gt;    - lastLogin: Date (آخرین ورود)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="280" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-13" parent="EBo0xGJynow3q_47pKID-11" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="280" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-14" parent="EBo0xGJynow3q_47pKID-11" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;+ method&lt;/font&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: transparent; font-size: 11px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 11px;&quot;&gt;&amp;nbsp;+ login(user, pass): boolean (ورود به سیستم)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp;+ logout(): void (خروج)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp;+ hasPermission(action): boolean (بررسی&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;سطح&lt;/span&gt;&lt;span style=&quot;font-size: 11px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;دسترسی)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="92" width="280" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-30" edge="1" parent="1" source="EBo0xGJynow3q_47pKID-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#009900;entryX=1.011;entryY=0.035;entryDx=0;entryDy=0;entryPerimeter=0;" target="EBo0xGJynow3q_47pKID-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710" y="430" />
+              <mxPoint x="710" y="61" />
+            </Array>
+            <mxPoint x="560" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-15" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; InventoryManager (مدیریت موجودی)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="250" width="290" x="640" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-16" parent="EBo0xGJynow3q_47pKID-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ویژگی‌ها / Attributes&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#3333ff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; - inventoryList: List&amp;lt;Inventory&amp;gt; (لیست موجودی‌ها)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="290" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-17" parent="EBo0xGJynow3q_47pKID-15" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="290" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-18" parent="EBo0xGJynow3q_47pKID-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;+ method&lt;/font&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&lt;span style=&quot;background-color: transparent; font-size: 11px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; font-size: 11px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; + updateStock(invId, amount): void (بروزرسانی موجودی)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; + registerNewDrug(drugData): void (ثبت داروی جدید)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp; &amp;nbsp; + getStockAlerts(): List&amp;lt;Alert&amp;gt; (دریافت هشدارهای موجودی)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="142" width="290" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-20" edge="1" parent="1" source="EBo0xGJynow3q_47pKID-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.872;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.061;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#0066CC;" target="EBo0xGJynow3q_47pKID-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-21" connectable="0" parent="EBo0xGJynow3q_47pKID-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#dae8fc;labelBorderColor=#6c8ebf;" value="contains drug&lt;div&gt;&amp;nbsp;(شامل دارو)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0111" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-22" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="&lt;div&gt;Transaction (تراکنش دارو)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="230" x="50" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-23" parent="EBo0xGJynow3q_47pKID-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ویژگی‌ها / Attributes&lt;/font&gt;&lt;div&gt;&lt;div&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;transactionId: String (شناسه تراکنش)&lt;br&gt;type: String (نوع تراکنش)&lt;br&gt;quantity: int (تعداد)&lt;br&gt;date: Date (تاریخ)&lt;br&gt;status: String (وضعیت)&lt;/font&gt;&lt;/li&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="114" width="230" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-24" parent="EBo0xGJynow3q_47pKID-22" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="230" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-25" parent="EBo0xGJynow3q_47pKID-22" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;+ method&lt;/font&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;recordTransaction(): void (ثبت تراکنش)&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;validateTransaction(): boolean (اعتبارسنجی)&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;getDetails(): String (نمایش جزئیات)&lt;/font&gt;&lt;/li&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="112" width="230" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-26" edge="1" parent="1" source="EBo0xGJynow3q_47pKID-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.052;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#0066CC;" target="EBo0xGJynow3q_47pKID-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="165" y="365" />
+              <mxPoint x="-10" y="365" />
+              <mxPoint x="-10" y="45" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-27" connectable="0" parent="EBo0xGJynow3q_47pKID-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="related to" vertex="1">
+          <mxGeometry relative="1" x="0.4883" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-28" connectable="0" parent="EBo0xGJynow3q_47pKID-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#dae8fc;labelBorderColor=#6c8ebf;" value="هر دارو می‌تواند چندین&lt;div&gt;&amp;nbsp;تراکنش داشته باشد.&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.3207" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-29" edge="1" parent="1" source="EBo0xGJynow3q_47pKID-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#0066CC;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="120" />
+              <mxPoint x="620" y="390" />
+              <mxPoint x="220" y="390" />
+              <mxPoint x="220" y="410" />
+            </Array>
+            <mxPoint x="220" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-33" edge="1" parent="1" source="EBo0xGJynow3q_47pKID-14" style="endArrow=classic;html=1;rounded=0;exitX=0.43;exitY=1.018;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#009900;entryX=0.644;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;" target="EBo0xGJynow3q_47pKID-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="860" y="290" as="sourcePoint" />
+            <mxPoint x="830" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-38" edge="1" parent="1" source="EBo0xGJynow3q_47pKID-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;strokeColor=#FF9933;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="502" y="415" />
+              <mxPoint x="590" y="415" />
+              <mxPoint x="590" y="10" />
+              <mxPoint x="530" y="10" />
+              <mxPoint x="530" y="30" />
+            </Array>
+            <mxPoint x="530" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-40" connectable="0" parent="EBo0xGJynow3q_47pKID-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffe6cc;labelBorderColor=#d79b00;" value="monitors&amp;nbsp;&lt;div&gt;(پایش می‌کند)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0052" y="4" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-39" edge="1" parent="1" source="EBo0xGJynow3q_47pKID-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF9933;" target="EBo0xGJynow3q_47pKID-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="450" />
+              <mxPoint x="250" y="-40" />
+              <mxPoint x="140" y="-40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-41" connectable="0" parent="EBo0xGJynow3q_47pKID-39" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffe6cc;labelBorderColor=#d79b00;" value="checks expiry (بررسی انقضا)" vertex="1">
+          <mxGeometry relative="1" x="0.6927" y="-5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-34" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;AlertService (سیستم هشدار)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="290" width="230" x="330" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-35" parent="EBo0xGJynow3q_47pKID-34" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ویژگی‌ها / Attributes&lt;/font&gt;&lt;div&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;alertId: String (شناسه هشدار)&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;alertType: String (نوع هشدار)&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;message: String (پیام هشدار)&lt;/font&gt;&lt;/li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;createdAt: Date (زمان ایجاد)&lt;/font&gt;&lt;/li&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="144" width="230" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-36" parent="EBo0xGJynow3q_47pKID-34" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="230" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-37" parent="EBo0xGJynow3q_47pKID-34" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;+ method&lt;/font&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;checkDrugExpiry(): void (بررسی انقضای دارو)&lt;/font&gt;&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;checkLowStock(): void (بررسی کمبود موجودی)&lt;/font&gt;&lt;/li&gt;&lt;br/&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;sendAlert(user:User): void (ارسال هشدار&lt;/font&gt;)&lt;/li&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="112" width="230" y="178" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-45" edge="1" parent="1" source="EBo0xGJynow3q_47pKID-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.042;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF9933;" target="EBo0xGJynow3q_47pKID-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="400" />
+              <mxPoint x="650" y="400" />
+              <mxPoint x="650" y="40" />
+              <mxPoint x="752" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-46" connectable="0" parent="EBo0xGJynow3q_47pKID-45" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffe6cc;labelBorderColor=#d79b00;" value="&lt;p dir=&quot;rtl&quot; lang=&quot;fa&quot;&gt;notifies&amp;nbsp;&lt;/p&gt;&lt;p dir=&quot;rtl&quot; lang=&quot;fa&quot;&gt;(اطلاع می‌دهد)&lt;/p&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.4746" y="5" as="geometry">
+            <mxPoint x="5" y="93" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-47" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;div&gt;AuthenticationService (احراز هویت)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="208" width="340" x="520" y="-400" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-48" parent="EBo0xGJynow3q_47pKID-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;ویژگی‌ها / Attributes&lt;/font&gt;&lt;div&gt;&lt;li&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;- sessionId: String (شناسه نشست)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;- loginTime: Date (زمان ورود)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="340" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-49" parent="EBo0xGJynow3q_47pKID-47" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="340" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-50" parent="EBo0xGJynow3q_47pKID-47" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: rgb(51, 51, 255);&quot;&gt;+ method&lt;/font&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;li&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;+ authenticate(username:String, password:String): boolean (احراز هویت)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;+ generateSession(user:User): String (ایجاد نشست کاربر)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;+ logout(user:User): void (خروج از سیستم)&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;/li&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="340" y="108" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-51" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF6666;" target="EBo0xGJynow3q_47pKID-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="-110" />
+              <mxPoint x="890" y="-110" />
+            </Array>
+            <mxPoint x="780" y="-192" as="sourcePoint" />
+            <mxPoint x="812" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=right;" value="" vertex="1">
+          <mxGeometry height="290" width="570" x="60" y="-800" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;نمودار پایین و اینطور رسم کردم.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="190" x="390" y="-780" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;p lang=&quot;en&quot;&gt;&lt;strong&gt;Entities&lt;/strong&gt;&lt;/p&gt;&lt;br/&gt;&lt;ul lang=&quot;en&quot;&gt;&lt;br/&gt;&lt;li&gt;Drug&lt;/li&gt;&lt;br/&gt;&lt;li&gt;Inventory&lt;/li&gt;&lt;br/&gt;&lt;li&gt;Transaction&lt;/li&gt;&lt;br/&gt;&lt;li&gt;User&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="200" width="140" x="95" y="-750" as="geometry" />
+        </mxCell>
+        <mxCell id="EBo0xGJynow3q_47pKID-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;p lang=&quot;en&quot;&gt;&lt;strong&gt;Services / Control&lt;/strong&gt;&lt;/p&gt;&lt;p lang=&quot;en&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;ul lang=&quot;en&quot;&gt;&lt;br/&gt;&lt;li&gt;InventoryManager&lt;/li&gt;&lt;br/&gt;&lt;li&gt;AlertService&lt;/li&gt;&lt;br/&gt;&lt;li&gt;AuthenticationService&lt;/li&gt;&lt;/ul&gt;" vertex="1">
+          <mxGeometry height="200" width="140" x="275" y="-770" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
